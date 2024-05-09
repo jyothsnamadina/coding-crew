@@ -6,7 +6,7 @@ class Solution
 public:
     int oppositeFaceOfDice(int N)
     {
-        return 7-N; //sum of opposite sides of dice is 7 .so if you want one side subract with another side
+        return 7-N; //sum of opposite sides of dice is 7 
     }
 };
 int main()
