@@ -9,7 +9,7 @@ class Solution {
         int sum=0,r=0,o=0,re=0,s=0;
         while(n!=0)      //sum the all digits
         {
-            r=n%10;       //n mod 10 so that we get the last digit or reminder
+            r=n%10;       //n mod 10 so that we get the each digit or reminder
             sum=sum+r;    // add the reminder
             n=n/10;       // remove that digit which already add to the sum by dividing with 10
         }
