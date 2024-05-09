@@ -9,7 +9,7 @@ class Solution
 		    int count = 0;
        for (int i = 1; i <= sqrt(n); ++i) {
               if (n % i == 0) {  //find divisors
-                 if (i % 3 == 0)  // divisors which be divide by 3
+                 if (i % 3 == 0)  // divisors which are divide by 3
                      count++;
                  if (i != n / i && (n / i) % 3 == 0)  //not get the same i when n divided with i and n divide with i is must divide by 3
                      count++;
